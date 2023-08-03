@@ -1,0 +1,406 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1370px;
+  margin: 0 auto;
+}
+  /* headersction */
+  .clear::after{
+content: "";
+display: block;
+clear: both;
+  }
+  .headersction{
+background-color: black;
+  }
+  .menulogo{
+
+  }
+  .logo{
+width: 10%;
+float: left;
+  }
+  .logo img {
+    width: 100px;
+    margin-left: 255px;
+}
+  .menu{
+float: right;
+width: 90%;
+text-align: right;
+  }
+  .menu ul{
+
+  }
+  .menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+  }
+  .menu ul li a {
+    text-decoration: none;
+    padding: 0 30px;
+    line-height: 50px;
+    color: white;
+    
+}
+.menu i{
+  color: white;
+}
+.menu ul li ul {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  width: 200px;
+  text-align: center;
+  background-color: aqua;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 9;
+}
+.menu ul li:hover ul{
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu ul li ul li{
+display: block;
+
+}
+.menu ul li ul li a:hover{
+  background-color: brown;
+  display: block;
+}
+
+/*herosction*/
+.herosction{
+  background-image: url("./GettyImages-173404960-56a1348f5f9b58b7d0bd03bd.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 250px;
+}
+.btn {
+  text-decoration: none;
+  padding: 10px 34px;
+  color: white;
+  display: inline-block;
+  background-color: black;
+  margin-top: 23px;
+  border-radius: 10px;
+}
+.btn2 {
+  text-decoration: none;
+  padding: 10px 34px;
+  color: black;
+  display: inline-block;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px;
+}
+.hreo h2 {
+  font-size: 38px;
+}
+.hreo p {
+  padding: 10px 0;
+  font-size: 24px;
+}
+.hreo {
+  margin-left: 115px;
+}
+/* aboutaction */
+.Aboutsction{
+  background-color:#86a374 ;
+  text-align: center;
+
+}
+.ttite h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+  padding: 20px;
+  color: white;
+  text-shadow:2px 0 4px ;
+  position: relative;
+}
+.ttite h2::before {
+  position: absolute;
+  content: "";
+  top: 77px;
+  left: 0;
+  background-color: white;
+  width: 17%;
+  height: 4px;
+  text-shadow: -6px 4px 15px #f3f2f2;
+  margin: 0 auto;
+  right: 0;
+}
+.aboutext{
+width: 50%;
+float: left;
+}
+
+.aboutimg img {
+  width: 18%;
+}
+
+
+
+
+/*Servicesction*/
+.servicesction{
+  background-color: #606a64;
+  padding: 150px 0;
+}
+.servicegrib{
+
+}
+.singleservice {
+  width: 31%;
+  float: left;
+  background-color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  margin: 73px 15px;
+  border-radius: 20px;
+}
+.ttite{
+  text-align: center;
+}
+.ttite h4 {
+  font-size: 32px;
+  margin-top: -52px;
+  padding: 20px 0;
+  color: white;
+}
+.ttite p {
+  font-size: 18px;
+  color: white;
+}
+.serviceibon {
+  width: 10%;
+  float: left;
+  font-size: 24px;
+  color: #00bc9e;
+}
+.servicetext{
+  width: 90%;
+  float: right;
+
+}
+.servicetext h3 {
+  font-size: 20px;
+  margin-top: -16px;
+  padding: 14px 0;
+  color: #506a84;
+}
+.servicetext p{
+  color: #b1bdc6;
+}
+
+
+/* worksction */
+.worksction{
+background-color: #86a374;
+padding: 150px 0;
+}
+.tittle{
+   text-align: center;
+}
+.tittle h3 {
+  font-size: 33px;
+  padding: 20px 0;
+  color: white;
+}
+.tittle p{
+  color: white;
+}
+.work{
+text-align: center;
+}
+.work {
+  text-align: center;
+  margin-top: 59px;
+  padding: 24px 0;
+  
+}
+.workimg{
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.workimg::before {
+  content: "";
+  position: absolute;
+  top: 286px;
+  left: -383px;
+  width: 46%;
+  border: 2px solid white;
+  right: 0;
+  margin: 0 auto;
+}
+.workimgand{
+position: relative;
+width: 50%;
+float: right;
+}
+.workimgand::before {
+  content: "";
+  position: absolute;
+  top: 288px;
+  left: 280px;
+  width: 40%;
+  border: 2px solid white;
+  right: -17px;
+  margin: 0 auto;
+}
+
+.workimg img {
+  width: 300px;
+  margin-left: -381px;
+}
+.workimg h4 {
+  padding: 15px;
+  color: #536d83;
+  margin-left: -371px;
+}
+.workimg h5 {
+  color: white;
+  margin-left: -417px;
+}
+.workimgand h4 {
+  padding: 15px;
+  color: #536d83;
+  margin-left: 294px;
+}
+.workimgand h5 {
+  color: white;
+  margin-left: 300px;
+}
+.workimgand img {
+  margin-left: 292px;
+}
+
+
+/* imggallary */
+.imggallary{
+  width: 25%;
+  float: left;
+}
+.gallary {
+  margin-top: 30px;
+}
+.imggallary img{
+  max-width: 100%;
+}
+
+.sctionimg{
+  width:30%;
+  float: left;
+
+}
+/* teamsction */
+
+.teamsction{
+  background-color: #5a9777;
+  padding: 80px 0;
+}
+.singleteam {
+  width: 33%;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+}
+.singleteam img{
+  width: 300px;
+}
+.socal ul li{
+  display: inline-block;
+  list-style: none;
+  
+}
+.socal i {
+  font-size: 24px;
+  color: white;
+}
+.tttile h3{
+  text-align: center;
+  padding: 69px;
+  font-size: 24px;
+  color: white;
+  position: relative;
+}
+.tttile h3::before{
+content: "";
+position: absolute;
+width: 100%;
+height: 4px;
+color: white;
+top: 0;
+left: 0;
+}
+/* content */
+
+.content{
+  background-color: #606a64;
+  padding: 40px;
+}
+.contentext{
+  text-align: center;
+}
+.contentext h2 {
+  color: white;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.contentext p {
+  color: white;
+  padding: 20px 0;
+  font-size: 17px;
+}
+.contentext span a {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #00bb9d;
+  padding: 11px 37px;
+  border-radius: 5px;
+  color: white;
+}
+
+
+/* fottersction */
+  .footersction{
+    background-color: black;
+
+  }
+  .fotter{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Aboutsction */
